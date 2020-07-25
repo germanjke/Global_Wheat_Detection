@@ -7,4 +7,4 @@ I guess idea to delete boxes with big sizes is good so just do it. We checking a
 
 The main model of this competition was yolov5 so this was a choice, but some problems with MIT license so idk what is going now :) 
 
-07/25 Today, after a long review of boxes with a large area, I concluded that a large area is in any case very bad for our task. The sprout of wheat can be long, but it cannot be thick, the area must not be large. There are 147k boxes in the dataset, I plan to remove about 10 percent of the boxes with a large area.
+**07/25** Today, after a long review of boxes with a large area, I concluded that a large area is in any case very bad for our task. The sprout of wheat can be long, but it cannot be thick, the area must not be large. There are 147k boxes in the dataset, I plan to remove about 10 percent of the boxes with a large area.
