@@ -8,3 +8,6 @@ I guess idea to delete boxes with big sizes is good so just do it. We checking a
 The main model of this competition was yolov5 so this was a choice, but some problems with MIT license so idk what is going now :) 
 
 **07/25** Today, after a long review of boxes with a large area, I concluded that a large area is in any case very bad for our task. The sprout of wheat can be long, but it cannot be thick, the area must not be large. There are 147k boxes in the dataset, I plan to remove about 10 percent of the boxes with a large area.
+
+Very important idea in this comptetiton is pseudo labeling so we need to understand how it's works
+![text](https://cdn.analyticsvidhya.com/wp-content/uploads/2017/09/20185606/pseudo-labeling.png) 
